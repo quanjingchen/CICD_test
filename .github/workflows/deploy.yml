@@ -2,8 +2,7 @@ name: Build and Deploy
 
 on:
   push:
-    branches:
-      - master
+    branches: [ main ]
 
 env:
   applicationfolder: spring-boot-hello-world-example
